@@ -1,4 +1,2 @@
 # Personal-Website
-my personal website.
-
-[check it out here](https://muadhkhan.vercel.app/)
+[my personal website.](https://muadhkhan.vercel.app/)
