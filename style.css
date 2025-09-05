@@ -1,4 +1,4 @@
-/* RESET */
+/* CSS */
 * {
   margin: 0;
   padding: 0;
@@ -95,7 +95,7 @@ nav {
   color: rgb(255, 255, 255);
 }
 
-/* TYPOGRAPHY */
+/* FONT */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 530;
   margin-bottom: 1rem;
@@ -348,3 +348,39 @@ body.light-mode .footer-socials img { filter: invert(1); }
 }
 
 .pfp-bounce { animation: bounce 0.8s forwards; }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+  .main-content {
+    margin: 2rem 1rem;
+    padding: 2rem 1rem;
+  }
+
+  nav {
+    padding: 0 1rem;
+  }
+
+  .site-footer {
+    padding: 1.5rem 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-content {
+    margin: 1.5rem 0.5rem;
+    padding: 1.5rem 0.5rem;
+  }
+
+  nav {
+    padding: 0 0.5rem;
+  }
+
+  .nav-links {
+    gap: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .site-footer {
+    padding: 1rem 0.5rem;
+  }
+}
